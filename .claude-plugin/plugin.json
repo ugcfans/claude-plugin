@@ -1,0 +1,21 @@
+{
+  "name": "ugcfans-studio",
+  "displayName": "UGC Fans Studio",
+  "version": "1.0.0",
+  "description": "Turn a website into a launch film and finish your own clips from inside your AI assistant: capture a page, make the film, then trim, caption, reformat and add an end card.",
+  "author": {
+    "name": "UGC Fans",
+    "url": "https://ugc.fans"
+  },
+  "homepage": "https://ugc.fans",
+  "repository": "https://github.com/ugcfans/plugin-studio",
+  "license": "MIT",
+  "keywords": [
+    "ugc",
+    "video",
+    "marketing",
+    "launch-film",
+    "captions"
+  ],
+  "icon": "./assets/logo.png"
+}

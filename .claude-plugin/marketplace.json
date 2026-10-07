@@ -1,0 +1,23 @@
+{
+  "name": "ugcfans-studio",
+  "owner": {
+    "name": "UGC Fans",
+    "url": "https://ugc.fans"
+  },
+  "description": "UGC Fans Studio for Claude Code: launch films from a website and clip finishing.",
+  "plugins": [
+    {
+      "name": "ugcfans-studio",
+      "source": "./",
+      "description": "Turn a website into a launch film and finish your own clips from inside your AI assistant: capture a page, make the film, then trim, caption, reformat and add an end card.",
+      "category": "creative",
+      "tags": [
+        "ugc",
+        "video",
+        "marketing",
+        "launch-film",
+        "captions"
+      ]
+    }
+  ]
+}

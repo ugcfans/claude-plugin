@@ -1,0 +1,45 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ugcfans-studio",
+  "version": "1.0.0",
+  "description": "Turn a website into a launch film and finish your own clips from inside your AI assistant: capture a page, make the film, then trim, caption, reformat and add an end card.",
+  "author": {
+    "name": "UGC Fans",
+    "url": "https://ugc.fans"
+  },
+  "homepage": "https://ugc.fans",
+  "repository": "https://github.com/ugcfans/plugin-studio",
+  "license": "MIT",
+  "keywords": [
+    "ugc",
+    "video",
+    "marketing",
+    "launch-film",
+    "captions"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "UGC Fans Studio",
+        "shortDescription": "Launch films from your site",
+        "longDescription": "UGC Fans Studio turns a website into a short launch film from inside ChatGPT, Codex and other assistants. It photographs the page, suggests the parts worth featuring, and makes the film in landscape, vertical or square. It can also make a film from chosen parts of the page, change the words on it and export it as a video, and it trims, captions, reformats, brands and transcribes footage already in your UGC Fans library. Everything runs on UGC Fans' own compute and shares finished files by link. Sign in with a UGC Fans account to use it. Limits: links to finished files expire after a few hours, and footage is uploaded at ugc.fans/library first.",
+        "developerName": "UGC Fans",
+        "category": "Design",
+        "capabilities": [
+          "Capture websites",
+          "Make launch films",
+          "Finish clips"
+        ],
+        "websiteURL": "https://ugc.fans",
+        "defaultPrompt": [
+          "Make a launch film of my website, example.com.",
+          "Make a vertical launch film of my site for Reels.",
+          "Trim, caption and reformat my latest clip for Reels."
+        ],
+        "brandColor": "#FF2E9A",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

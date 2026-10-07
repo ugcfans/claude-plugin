@@ -1,0 +1,10 @@
+{
+  "name": "ugcfans-studio",
+  "version": "1.0.0",
+  "description": "Turn a website into a launch film and finish your own clips from inside your AI assistant: capture a page, make the film, then trim, caption, reformat and add an end card.",
+  "mcpServers": {
+    "ugcfans": {
+      "httpUrl": "https://mcp.ugc.fans/studio"
+    }
+  }
+}
