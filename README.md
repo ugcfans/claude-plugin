@@ -16,7 +16,7 @@ Turn a website into a launch film from inside your AI assistant. This plugin con
 
 ## Credits
 
-Everything this plugin does runs on UGC Fans' own compute and spends no credits. Your balance is shown by the account tool, and plans and credits are described at https://ugc.fans/credits.
+Everything this plugin does runs on UGC Fans' own compute and spends no credits. Your balance is shown by the account tool, and plans and credits are described at https://ugc.fans/pricing.
 
 ## Install
 

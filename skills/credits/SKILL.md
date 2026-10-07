@@ -16,6 +16,6 @@ Call `ugcfans_get_account` when the user asks. It returns `credits`, `granted`, 
 A tool answers `status: "needs_credits"` with `have`, `need` and `plans` when the account cannot run it. Then:
 
 1. Say plainly that this needs more credits than the account has, with the numbers: "This needs 40 credits and the account has 12." When `need` is null, give `have` alone.
-2. Say that plans and credits are described at https://ugc.fans/credits and that credits are bought on ugc.fans. Give that link once.
+2. Say that plans and credits are described at https://ugc.fans/pricing and that credits are bought on ugc.fans. Give that link once.
 3. Say what was not made.
 4. Stop there. Do not retry the call, do not describe or compare plans, do not recommend buying, and never link to a checkout or payment page.
