@@ -20,11 +20,13 @@ Everything this plugin does runs on UGC Fans' own compute and spends no credits.
 
 ## Install
 
-- Claude Code: `claude mcp add --transport http ugcfans-studio https://mcp.ugc.fans/studio`, or `claude plugin install ugcfans-studio@ugcfans-studio` once the marketplace that lists this folder is added. The plugin bundles the skills as well.
+- Claude Code: `claude mcp add --transport http ugcfans-studio https://mcp.ugc.fans/studio`, or the plugin from this repository's own marketplace: `claude plugin marketplace add ugcfans/claude-plugin` then `claude plugin install ugcfans-studio@ugcfans-studio`.
 - Codex: `codex mcp add ugcfans-studio --url https://mcp.ugc.fans/studio`, then `codex mcp login ugcfans-studio`.
-- Gemini CLI: `gemini extensions install` with the address of the repository that holds this folder.
+- Gemini CLI: `gemini extensions install https://github.com/ugcfans/claude-plugin`.
 - Other clients: add https://mcp.ugc.fans/studio as a remote Streamable HTTP server.
 
 ## License
 
 MIT. See `LICENSE`.
+
+Source: https://github.com/ugcfans/claude-plugin, published from the UGC Fans product tree; a change lands here with the ship that made it.
